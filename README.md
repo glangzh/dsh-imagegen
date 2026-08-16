@@ -67,7 +67,7 @@ dsh plugin --profile web remove dsh-imagegen
 
 ## 灵感
 
-项目灵感来自 [Codex imagegen](https://github.com/openai/codex) 的图像生成工作流(用例分类、prompt 模板与生成/编辑/校验闭环)。
+项目灵感来自 [Codex imagegen](https://github.com/openai/codex/blob/main/codex-rs/skills/src/assets/samples/imagegen/SKILL.md) 的图像生成工作流(用例分类、prompt 模板与生成/编辑/校验闭环)。
 
 ## 许可
 
