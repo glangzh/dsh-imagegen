@@ -1,0 +1,14 @@
+# dsh-imagegen bundle layer: applied when the profile lists this bundle.
+# 用户可在自己 profile 的 cordis.patch.yml 中按 id 覆盖本行(重述整个 config)。
+- insert:
+    - id: dsh-imagegen
+      name: dsh-imagegen
+      config:
+        apiBase: https://api.agnes-ai.cn
+        apiKeyRef: IMAGE_API_KEY
+        baseUrlRef: IMAGE_API_BASE
+        imageModel: agnes-image-2.1-flash
+        visionModel: agnes-2.5-flash
+        translateModel: agnes-2.5-flash
+        outputDir: generated_images
+        autoTranslate: false
